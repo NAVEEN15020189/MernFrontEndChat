@@ -1,0 +1,39 @@
+/* MessageInput.css */
+
+.chat-footer {
+    display: flex;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .chat-footer input:focus {
+    border-color: #61dafb;
+  }
+  
+  .chat-footer button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+  
+  .chat-footer button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .chat-footer button:active {
+    transform: scale(0.98);
+  }
+  
