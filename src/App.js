@@ -3,7 +3,7 @@ import { useState } from "react";
 import io from "socket.io-client";
 import Chat from "./components/Chat";
 
-const socket = io.connect("https://mernwebsocketchat.onrender.com");
+const socket = io.connect("http://localhost:3001");
 
 
 function App() {
